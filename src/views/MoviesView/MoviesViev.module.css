@@ -1,0 +1,15 @@
+.film_list {
+  /* list-style-type: none; */
+  margin: 0;
+}
+
+.film_item_data {
+  color: white;
+}
+.film_item {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 8px;
+  color: rgb(201, 171, 250);
+}

@@ -1,0 +1,15 @@
+.reviews_list {
+  list-style-type: none;
+}
+
+.reviews_author {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(201, 171, 250);
+}
+
+.reviews_content {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}

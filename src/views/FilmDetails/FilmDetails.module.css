@@ -1,0 +1,77 @@
+.CardContainer {
+  padding: 30px;
+}
+
+.CardView {
+  display: flex;
+}
+
+.CardImg {
+  border-radius: 10px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 0.25s;
+}
+
+.CardImg:hover {
+  transform: scale(1.03);
+}
+
+.description {
+  margin-left: 30px;
+}
+
+.title {
+  color: black;
+}
+
+.score {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(201, 171, 250);
+}
+
+.overview {
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.genreList {
+  display: inline-flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.genreItem {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 8px;
+  color: rgb(201, 171, 250);
+}
+
+.aditional_list {
+  padding-left: 15px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.aditional_Item {
+  margin-bottom: 6px;
+  color: rgb(201, 171, 250);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 0.25s;
+}
+
+.aditional_Item:hover {
+  transform: scale(1.09);
+}
+
+.dataAditional {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+.aditional_navLink {
+  text-decoration: none;
+}

@@ -1,0 +1,63 @@
+.title {
+  margin: 0 0 15px 0;
+  display: flex;
+  color: rgb(201, 171, 250);
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  margin: 0;
+}
+
+.item {
+  max-width: 274px;
+  flex-basis: calc(25% - 22.5px);
+  list-style: none;
+  margin-bottom: 8px;
+  margin-left: 30px;
+
+  border-radius: 8px;
+
+  color: rgb(201, 171, 250);
+}
+
+.item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+.FilmImg {
+  object-fit: contain;
+  border-radius: 4px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.short_info {
+  margin: 6px;
+}
+
+.span_content {
+  margin: 0;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.film_score {
+  color: rgb(255, 166, 0);
+}
+
+.pin {
+  color: rgb(255, 94, 0);
+
+  margin: 0 3px 0 3px;
+}
